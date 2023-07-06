@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct CoffeeSearchApp: App {
+    var coffeeVM = CoffeeViewModel()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(coffeeVM)
         }
     }
 }

@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		895CB66D2A55492B005CE452 /* CoffeeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895CB66C2A55492B005CE452 /* CoffeeRow.swift */; };
+		895CB6712A555042005CE452 /* coffeeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 895CB6702A555042005CE452 /* coffeeData.json */; };
+		895CB6732A55571C005CE452 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895CB6722A55571C005CE452 /* ModelData.swift */; };
 		896256D62A45AE9E00E06B55 /* CoffeeSearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896256D52A45AE9E00E06B55 /* CoffeeSearchApp.swift */; };
 		896256D82A45AE9E00E06B55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896256D72A45AE9E00E06B55 /* ContentView.swift */; };
 		896256DA2A45AEA100E06B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896256D92A45AEA100E06B55 /* Assets.xcassets */; };
 		896256DD2A45AEA100E06B55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896256DC2A45AEA100E06B55 /* Preview Assets.xcassets */; };
+		896256E42A45AEB900E06B55 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896256E32A45AEB900E06B55 /* Coffee.swift */; };
+		896256E62A45B01A00E06B55 /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896256E52A45B01A00E06B55 /* CoffeeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		895CB66C2A55492B005CE452 /* CoffeeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeRow.swift; sourceTree = "<group>"; };
+		895CB6702A555042005CE452 /* coffeeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = coffeeData.json; sourceTree = "<group>"; };
+		895CB6722A55571C005CE452 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		896256D22A45AE9E00E06B55 /* CoffeeSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		896256D52A45AE9E00E06B55 /* CoffeeSearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeSearchApp.swift; sourceTree = "<group>"; };
 		896256D72A45AE9E00E06B55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		896256D92A45AEA100E06B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		896256DC2A45AEA100E06B55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		896256E32A45AEB900E06B55 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		896256E52A45B01A00E06B55 /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,11 @@
 				896256D72A45AE9E00E06B55 /* ContentView.swift */,
 				896256D92A45AEA100E06B55 /* Assets.xcassets */,
 				896256DB2A45AEA100E06B55 /* Preview Content */,
+				896256E32A45AEB900E06B55 /* Coffee.swift */,
+				896256E52A45B01A00E06B55 /* CoffeeViewModel.swift */,
+				895CB66C2A55492B005CE452 /* CoffeeRow.swift */,
+				895CB6702A555042005CE452 /* coffeeData.json */,
+				895CB6722A55571C005CE452 /* ModelData.swift */,
 			);
 			path = CoffeeSearch;
 			sourceTree = "<group>";
@@ -127,6 +142,7 @@
 			files = (
 				896256DD2A45AEA100E06B55 /* Preview Assets.xcassets in Resources */,
 				896256DA2A45AEA100E06B55 /* Assets.xcassets in Resources */,
+				895CB6712A555042005CE452 /* coffeeData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				896256E62A45B01A00E06B55 /* CoffeeViewModel.swift in Sources */,
 				896256D82A45AE9E00E06B55 /* ContentView.swift in Sources */,
+				895CB66D2A55492B005CE452 /* CoffeeRow.swift in Sources */,
 				896256D62A45AE9E00E06B55 /* CoffeeSearchApp.swift in Sources */,
+				896256E42A45AEB900E06B55 /* Coffee.swift in Sources */,
+				895CB6732A55571C005CE452 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
